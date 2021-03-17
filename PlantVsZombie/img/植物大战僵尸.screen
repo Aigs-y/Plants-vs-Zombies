@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Circle" id="1" x="40" y="80" width="113" height="113" text="Form" measuredWidth="113" measuredHeight="113">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Circle" id="2" x="288" y="79" width="111" height="116" text="Game" measuredWidth="111" measuredHeight="116">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Circle" id="3" x="304" y="336" width="103" height="97" text="GameRender" measuredWidth="103" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="4" x="368" y="185" width="8" height="151" measuredWidth="8" measuredHeight="151" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="5" x="328" y="192" width="8" height="145" measuredWidth="8" measuredHeight="145" annotation="true"/>
+  <widgets xsi:type="model:Arrow" id="6" x="152" y="128" width="137" height="8" measuredWidth="137" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="608" y="8" measuredWidth="202" measuredHeight="146">
+    <widgets xsi:type="model:WidgetGroup" id="12" y="40" measuredWidth="106" measuredHeight="106">
+      <widgets xsi:type="model:Circle" id="13" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="14" x="10" y="10" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="15" x="20" y="20" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="16" x="30" y="30" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="17" x="40" y="24" measuredWidth="106" measuredHeight="106">
+      <widgets xsi:type="model:Circle" id="18" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="19" x="10" y="10" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="20" x="20" y="20" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="21" x="30" y="30" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="11" x="96" measuredWidth="106" measuredHeight="106">
+      <widgets xsi:type="model:Circle" id="7" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="8" x="10" y="10" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="9" x="20" y="20" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="10" x="30" y="30" text="BaseObject" measuredWidth="76" measuredHeight="76">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="22" x="399" y="81" width="210" height="39" measuredWidth="210" measuredHeight="39" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="504" y="360" measuredWidth="165" measuredHeight="151">
+    <widgets xsi:type="model:WidgetGroup" id="37" y="49" measuredWidth="102" measuredHeight="102">
+      <widgets xsi:type="model:Circle" id="24" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="25" x="10" y="10" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="26" x="20" y="20" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="36" x="30" y="30" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="38" x="23" y="30" measuredWidth="102" measuredHeight="102">
+      <widgets xsi:type="model:Circle" id="39" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="40" x="10" y="10" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="41" x="20" y="20" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="42" x="30" y="30" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="43" x="63" measuredWidth="102" measuredHeight="102">
+      <widgets xsi:type="model:Circle" id="44" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="45" x="10" y="10" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="46" x="20" y="20" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Circle" id="47" x="30" y="30" width="72" height="72" text="Render" measuredWidth="72" measuredHeight="72">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="49" x="407" y="393" width="98" height="39" measuredWidth="98" measuredHeight="39" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="50" x="153" y="154" width="136" height="8" measuredWidth="136" measuredHeight="8" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Window" id="53" x="16" y="440" text="Window" measuredWidth="400" measuredHeight="300"/>
+  <widgets xsi:type="model:Arrow" id="54" x="144" y="176" width="554" height="89" measuredWidth="554" measuredHeight="89" annotation="true"/>
+  <widgets xsi:type="model:Arrow" id="55" x="97" y="193" width="40" height="256" measuredWidth="40" measuredHeight="256" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Circle" id="56" x="697" y="238" text="IGDIPaint" measuredWidth="70" measuredHeight="70">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="57" x="633" y="307" width="80" height="70" measuredWidth="80" measuredHeight="70" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Icon" id="58" x="144" y="536" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="59" x="175" y="584" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="60" x="224" y="536" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="62" x="309" y="594" measuredWidth="32" measuredHeight="32" icon="plane (large)"/>
+  <widgets xsi:type="model:Icon" id="63" x="64" y="580" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:TextArea" id="65" x="240" y="40" text="Control:Game和GameRender，&#xD;&#xA;game类复制控制整个游戏的所有对象。" measuredWidth="212" measuredHeight="32">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="66" x="481" y="332" text="Render类负责渲染图片，&#xD;&#xA;Render是所有渲染类的抽象父类。" measuredWidth="188" measuredHeight="32">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="67" x="680" y="208" text="IGDIPaint接口通过引用Form的Graphic，&#xD;&#xA;使用GDI，达到图片运动的效果。" measuredWidth="224" measuredHeight="32">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="68" x="752" y="121" text="BaseObject，&#xD;&#xA;所有对象的公共父类。" measuredWidth="128" measuredHeight="32">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

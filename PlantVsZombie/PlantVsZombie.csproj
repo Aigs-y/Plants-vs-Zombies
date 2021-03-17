@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C93EF526-8ABC-4FF1-94ED-A27F5DD9B821}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlantVsZombie</RootNamespace>
+    <AssemblyName>PlantVsZombie</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bowling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bowling.Designer.cs">
+      <DependentUpon>bowling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_exit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_exit.Designer.cs">
+      <DependentUpon>Form_exit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_help.Designer.cs">
+      <DependentUpon>Form_help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guanqia2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guanqia2.Designer.cs">
+      <DependentUpon>Guanqia2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="minigame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="minigame.Designer.cs">
+      <DependentUpon>minigame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newuser.Designer.cs">
+      <DependentUpon>newuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="test\CSharpTest.cs" />
+    <Compile Include="userinfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userinfor.Designer.cs">
+      <DependentUpon>userinfor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bowling.resx">
+      <DependentUpon>bowling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_exit.resx">
+      <DependentUpon>Form_exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_help.resx">
+      <DependentUpon>Form_help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guanqia2.resx">
+      <DependentUpon>Guanqia2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="minigame.resx">
+      <DependentUpon>minigame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newuser.resx">
+      <DependentUpon>newuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userinfor.resx">
+      <DependentUpon>userinfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\Zombie.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\Zombie2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\Zombie3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\ZombieAttack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\ZombieDie.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\ZombieHead.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\ZombieLostHead.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombies\Zombie\ZombieLostHeadAttack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_10.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_12.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_13.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_14.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_15.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_16.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_17.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_18.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_19.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_20.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_21.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Zombie_decompose\Zombie_22.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\zombies\zombie\Zombie1\Zombie22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\interface\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\Repeater\Repeater15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Plants\PB00.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectorScreenAdventure_8_WPS图片1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectorScreenAdventure_8_WPS图片.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20200130071549.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20200130071616.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pea_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunflower_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peashooter_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peashooter_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\zombies\zombie\Zombie1\Zombie1.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie2.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie3.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie4.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie5.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie6.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie7.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie8.png" />
+    <Content Include="img\zombies\zombie\Zombie1\Zombie9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
